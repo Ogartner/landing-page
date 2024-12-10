@@ -114,13 +114,14 @@ main p {
 }
 
 .images img {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
+  border: 0.3rem solid #3882f6;
 }
 
 .images p {
   text-align: center;
-  width: 150px;
+  width: 200px;
   line-height: 1.2;
   font-size: 14px;
   font-weight: 300;
@@ -129,7 +130,27 @@ main p {
 .main {
   margin-bottom: 6rem;
 }
-/* 
-.caption {
-  display: ;
-} */
+
+.container-quote {
+  background-color: #e5e7eb;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.thor {
+  display: flex;
+  align-self: flex-end;
+}
