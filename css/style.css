@@ -50,9 +50,6 @@ footer {
 .container {
   max-width: 1100px;
 }
-/* .container-hero {
-  height: 400px;
-} */
 
 nav {
   width: 100%;
@@ -72,7 +69,6 @@ nav ul {
   align-items: center;
   margin-top: 5rem;
   gap: 2rem;
-  /* height: 200px; */
 }
 
 .hero .hero-text {
@@ -113,8 +109,6 @@ main p {
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  /* margin: 2rem auto;
-  text-align: center; */
 }
 
 .images img {
